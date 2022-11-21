@@ -1,0 +1,45 @@
+Assignment:
+Your task is to analyze an existing recommender system that you find interesting. You should:
+1) Perform a Scenario Design analysis as described below. Consider whether it makes sense for your selected recommender system to perform scenario design twice, once for the organization (e.g. Amazon.com) and once for the organization’s customers.
+2) Attempt to reverse engineer what you can about the site, from the site interface and any available information that you can find on the Internet or elsewhere.
+3) Include specific recommendations about how to improve the site’s recommendation capabilities going forward.
+4) Create your report using an R Markdown file, and create a discussion thread with a link to the GitHub repo where your Markdown file notebook resides. You are not expected to need to write code for this discussion assignment.
+
+Introduction:
+I, and many other people love music and really need it each and everyday. Since each song is about 3 minutes, more or less, we can get tired of songs pretty quickly. We end up listening to the same songs again and again, when really we would love to discover more music that is up our alley. That's where Gnoosic.com comes in handy. It is a recommendation website that searches and recommends music for you that you don't know about, by asking some questions and looking at your history. It contains hundreds of thousands of bands and quite some knowledge about who likes what.
+
+Scenario design analysis:
+Scenario Design analysis is a three question evaluation that makes sure that the user is taken into account. I think scenario analysis for this recommendation system should be used only once; for the users. 
+
+The three questions:
+
+1. Who are your target users?
+
+Gnoosic's target users are music lovers or really anyone looking to discover new music easily and quickly. They are people who have technology, such as a lap top, computer, or a smart phone. 
+
+2. What are their key goals?
+
+Their key goals are to learn and discover new music and new artists that they haven't heard of before that they might like. They want to do this quickly and easily and have it easily accessible, manageable, and download-able.
+
+3. How can you help them accomplish those goals? 
+
+Gnoosic.com can help them accomplish these goals by making lots of music accessible. They can make sure that it is easy to manage the website and easy for users to find what they are looking for. Most importantly, they use a recommendation system. They figure out what genres each user is interested in and gives them new music based on these recommendations. Users are also asked to rate how they liked what they just listened to, which helps Gnoosic in their recommendation process. After all this, the user has an easy time searching through Gnoosic and picking what they like. 
+
+
+The website has the user enter 3 of their favorite artists. Then, it recommends a couple of songs and artists to the user to see if they're on the right track. The user can either choose 'I like it', 'I don't like it', or 'I don't know'. They keep giving options until they begin to understand what the user likes. The website's goal is to introduce people to so many different types of music to widen the user's range. 
+
+Reverse Engineering:
+Reverse engineering is deconstructing or dismantling a product to learn how it works and understand more about its design. It can be used to repair existing products, recreate a product, or test for errors. I am unsure about what recommender system gnoosic uses , but I think it is the 'approximate nearest-neighbor' search algorithm. This groups songs and users together based on shared attributes or qualities. This can help the website make suggestions that you might like. For example, if user A has enjoyed songs X, Y and Z, and user B has enjoyed songs X and Y, but hasn't heard Z yet, they will probably enjoy Z, and then that is what is recommended to them.
+
+
+Recommendations for the website:
+Although the website is very helpful, there are some suggestions I would make to improve it. I think users should be asked more direct questions, and not only what their favorite band/artist is. They should have the user enter a couple of different songs that they like to really narrow down the recommendations. They should enter into the system whether they are in the mood for fast songs, slow songs, happy songs, sad songs, and any other genres. Gnoosic should create very specific genres (like Netflix), and then recommend new music based on the different genres too. 
+
+Conclusion: 
+Overall, Gnoosic is a very successful recommendation website that really helps those wanting to discover new music. It has access to so many songs and is easy to use. Although, there are things it could do to improve itself, it is still a very advanced and helful system that I and many others use and love.  
+
+https://www.techtarget.com/searchsoftwarequality/definition/reverse-engineering
+
+https://uplift360.com.au/what-is-website-reverse-engineering-and-how-to-do-it-right/#:~:text=So%20this%20means%20that%20website,you%20can%20produce%20similar%20results.
+
+https://www.gnoosic.com/
